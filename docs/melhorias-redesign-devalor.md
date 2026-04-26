@@ -133,7 +133,6 @@ As animações no novo site seguem o princípio **"movimento para função, não
 | **Gráficos radiais** (métricas)    | O anel desenhando transmite progresso e completude                          |
 | **Timeline** (processo)            | A sequência animada reforça a progressão das 5 fases                        |
 | **Padrão de pontos** (hero)        | Movimento diagonal sutil cria profundidade sem distrair                     |
-| **Botão WhatsApp**                 | Entrada com spring chama atenção para o canal de contato principal          |
 
 ### 3.3 O que removemos ou simplificamos
 
