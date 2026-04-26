@@ -144,22 +144,6 @@ As animações no novo site seguem o princípio **"movimento para função, não
 
 ---
 
-## 4. Sugestões de Imagens
-
-Para maximizar o impacto visual do novo site, recomendamos a inclusão das seguintes imagens caso ainda não estejam disponíveis:
-
-| Imagem                                          | Onde usar                                     | Por quê                                                              |
-| ----------------------------------------------- | --------------------------------------------- | -------------------------------------------------------------------- |
-| **Foto profissional da equipe** (grupo)         | Seção de diretores ou nova seção "Nosso Time" | Humaniza a empresa e reforça a escala (70+ colaboradores)            |
-| **Screenshot do portal do cliente**             | Seção "Como Funciona" ou "Benefícios"         | Mostra que a plataforma existe de verdade — prova tangível           |
-| **Foto do escritório / ambiente de trabalho**   | Rodapé ou seção institucional                 | Transmite estrutura física e profissionalismo                        |
-| **Logos dos clientes em alta resolução** (SVG)  | Seção de depoimentos                          | Logos reais em boa qualidade são mais impactantes que nomes em texto |
-| **Selo ou badge NPS** (se existir certificação) | Seção de benefícios, próximo ao card NPS      | Certificação externa é mais convincente que autodeclaração           |
-
-> **Nota:** Todas as fotos devem seguir um tratamento visual consistente — mesma temperatura de cor, mesmo estilo de iluminação. Fotos com qualidades ou estilos muito diferentes quebram a coesão visual.
-
----
-
 ## 5. Resumo Comparativo
 
 | Critério              | Site Anterior                      | Novo Site                                    |
@@ -176,5 +160,3 @@ Para maximizar o impacto visual do novo site, recomendamos a inclusão das segui
 | CTAs                  | Genéricos e de alto compromisso    | Específicos e de baixa barreira              |
 
 ---
-
-_Documento preparado como parte do projeto de redesign da landing page Devalor Cobranças._
