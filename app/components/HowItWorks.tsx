@@ -54,7 +54,7 @@ export default function HowItWorks() {
   return (
     <section id="como-funciona" className="py-20 md:py-28 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AnimatedSection className="text-center max-w-2xl mx-auto mb-16">
+        <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-primary font-semibold text-sm tracking-wide uppercase">
             Como Funciona
           </span>
@@ -66,16 +66,13 @@ export default function HowItWorks() {
             Em 4 passos, sua empresa começa a recuperar créditos inadimplentes
             sem nenhum custo inicial.
           </p>
-        </AnimatedSection>
+        </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, i) => (
-            <motion.div
+            <div
               key={step.number}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5, delay: i * 0.15 }}
+              
               className="relative"
             >
               {i < steps.length - 1 && (
@@ -94,11 +91,11 @@ export default function HowItWorks() {
                   {step.description}
                 </p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
 
-        <AnimatedSection delay={0.4} className="text-center mt-14">
+        <div className="text-center mt-14">
           <a
             href="https://api.whatsapp.com/send?phone=5547999384960&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20processo%20de%20cobran%C3%A7a"
             target="_blank"
@@ -110,7 +107,7 @@ export default function HowItWorks() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
-        </AnimatedSection>
+        </div>
       </div>
     </section>
   );

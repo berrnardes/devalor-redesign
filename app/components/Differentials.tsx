@@ -71,7 +71,7 @@ export default function Differentials() {
   return (
     <section id="diferenciais" className="py-20 md:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AnimatedSection className="text-center max-w-2xl mx-auto mb-16">
+        <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-primary font-semibold text-sm tracking-wide uppercase">
             Nossos Diferenciais
           </span>
@@ -83,16 +83,12 @@ export default function Differentials() {
             Mais de 10 anos de experiência em cobrança extrajudicial B2B com
             metodologia própria e foco em resultados.
           </p>
-        </AnimatedSection>
+        </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {differentials.map((item, i) => (
-            <motion.div
+            <div
               key={item.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
               className="group p-6 md:p-8 rounded-2xl border border-gray-100 hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors duration-300">
@@ -104,7 +100,7 @@ export default function Differentials() {
               <p className="mt-2 text-gray-500 leading-relaxed">
                 {item.description}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

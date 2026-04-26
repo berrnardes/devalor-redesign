@@ -120,7 +120,7 @@ export default function Metrics() {
   return (
     <section className="py-20 md:py-28 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AnimatedSection className="text-center max-w-2xl mx-auto mb-16">
+        <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-primary font-semibold text-sm tracking-wide uppercase">
             Resultados Comprovados
           </span>
@@ -132,11 +132,11 @@ export default function Metrics() {
             Acompanhe as métricas reais de desempenho da nossa operação de
             cobrança extrajudicial.
           </p>
-        </AnimatedSection>
+        </div>
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-10">
           {/* Recovery bars */}
-          <AnimatedSection className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100">
+          <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100">
             <h3 className="font-bold text-black mb-1">
               Taxa de Recuperação por Faixa
             </h3>
@@ -175,11 +175,10 @@ export default function Metrics() {
                 delay={0.6}
               />
             </div>
-          </AnimatedSection>
+          </div>
 
           {/* Radial charts */}
-          <AnimatedSection
-            delay={0.15}
+          <div
             className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100"
           >
             <h3 className="font-bold text-black mb-1">
@@ -214,7 +213,7 @@ export default function Metrics() {
                 delay={0.6}
               />
             </div>
-          </AnimatedSection>
+          </div>
         </div>
       </div>
     </section>

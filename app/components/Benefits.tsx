@@ -52,7 +52,7 @@ export default function Benefits() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left column */}
-          <AnimatedSection>
+          <div>
             <span className="text-primary font-semibold text-sm tracking-wide uppercase">
               Benefícios
             </span>
@@ -68,12 +68,8 @@ export default function Benefits() {
 
             <div className="mt-10 space-y-6">
               {benefits.map((benefit, i) => (
-                <motion.div
+                <div
                   key={benefit.title}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true, margin: "-40px" }}
-                  transition={{ duration: 0.4, delay: i * 0.1 }}
                   className="flex gap-4"
                 >
                   <div className="shrink-0 w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
@@ -85,13 +81,13 @@ export default function Benefits() {
                       {benefit.description}
                     </p>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
-          </AnimatedSection>
+          </div>
 
           {/* Right column — trust card */}
-          <AnimatedSection delay={0.2}>
+          <div>
             <div className="relative">
               <div className="bg-linear-to-br from-primary to-primary-dark rounded-3xl p-8 md:p-12 text-white">
                 <div className="text-6xl md:text-7xl font-bold text-accent">
@@ -126,7 +122,7 @@ export default function Benefits() {
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/20 rounded-2xl -z-10" />
               <div className="absolute -top-4 -left-4 w-16 h-16 bg-primary/10 rounded-2xl -z-10" />
             </div>
-          </AnimatedSection>
+          </div>
         </div>
       </div>
     </section>

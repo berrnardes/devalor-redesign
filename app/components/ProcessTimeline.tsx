@@ -112,7 +112,7 @@ export default function ProcessTimeline() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Left — heading and context */}
-          <AnimatedSection className="lg:sticky lg:top-28">
+          <div className="lg:sticky lg:top-28">
             <span className="text-primary font-semibold text-sm tracking-wide uppercase">
               Nossa Metodologia
             </span>
@@ -159,7 +159,7 @@ export default function ProcessTimeline() {
                 </div>
               </div>
             </div>
-          </AnimatedSection>
+          </div>
 
           {/* Right — timeline */}
           <div>
