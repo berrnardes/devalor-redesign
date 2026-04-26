@@ -29,3 +29,17 @@ body {
   color: var(--color-black);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
+
+/* Infinite diagonal drift for dot pattern */
+@keyframes diagonal-drift {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(40px, 40px);
+  }
+}
+
+.animate-diagonal-drift {
+  animation: diagonal-drift 3s linear infinite;
+}

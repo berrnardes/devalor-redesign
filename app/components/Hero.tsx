@@ -6,13 +6,17 @@ import CountUp from "./CountUp";
 export default function Hero() {
   return (
     <section className="relative pt-10 md:pt-6 overflow-hidden bg-linear-to-br from-primary-dark via-primary to-primary-light">
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
+      {/* Animated diagonal dot pattern */}
+      <div className="absolute inset-0 overflow-hidden opacity-10 pointer-events-none">
         <div
-          className="absolute inset-0"
+          className="absolute animate-diagonal-drift"
           style={{
+            width: "200%",
+            height: "200%",
+            top: "-50%",
+            left: "-50%",
             backgroundImage:
-              "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
+              "radial-gradient(circle at 1px 1px, white 1.2px, transparent 0)",
             backgroundSize: "40px 40px",
           }}
         />
